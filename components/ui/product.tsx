@@ -27,7 +27,7 @@ const Product = () => {
         },
     ];
     return (
-        <div className="relative bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] flex flex-col justify-center place-items-center pt-[6rem] gap-2">
+        <div className="relative bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] flex flex-col justify-center place-items-center py-[6rem] gap-2">
             <p className="text-[10px] text-center">Boost your productivity</p>
             <h2 className="text-[3.75rem] text-center font-bold xl:w-[18ch]">A more effective way to track progress</h2>
             <p className="text-[1.2rem] text-center w-[40ch]">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</p>

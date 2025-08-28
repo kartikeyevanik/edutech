@@ -2,6 +2,7 @@ import Eyn from "@/components/ui/eyn";
 import Hero from "@/components/ui/hero";
 import LogoTicker from "@/components/ui/logoTicker";
 import Product from "@/components/ui/product";
+import SignUp from "@/components/ui/signUp";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <LogoTicker />
       <Product />
       <Eyn />
+      <SignUp />
     </div>
   );
 }
