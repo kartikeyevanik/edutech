@@ -2,26 +2,27 @@ import Image from "next/image";
 import ProductImage from "../../assets/Product Image.png";
 import Pyramid from "../../assets/pyramid 1.png";
 import Torus from "../../assets/torus 1.png";
+import { Leaf, Target, Lock, Bell } from "lucide-react";
 
 const Product = () => {
     const features = [
         {
-            logo: "logo", 
+            logo: <Leaf />,
             title: "Integration ecosystem",
             description: "Track your progress and motivate your efforts everyday.",
         },
         {
-            logo: "logo",
+            logo: <Target />,
             title: "Goal setting and tracking",
             description: "Set and track goals with manageable task breakdowns.",
         },
         {
-            logo: "logo",
+            logo: <Lock />,
             title: "Secure data encryption",
             description: "Ensure your data’s safety with top-tier encryption.",
         },
         {
-            logo: "logo",
+            logo: <Bell />,
             title: "Customizable notifications",
             description: "Get alerts on tasks and deadlines that matter most.",
         },
@@ -29,7 +30,7 @@ const Product = () => {
     return (
         <div className="relative bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] flex flex-col justify-center place-items-center py-[6rem] gap-2">
             <p className="text-[10px] text-center">Boost your productivity</p>
-            <h2 className="text-[3.75rem] text-center font-bold xl:w-[18ch]">A more effective way to track progress</h2>
+            <h2 className="text-[3.75rem] text-center font-bold xl:w-[18ch] bg-gradient-to-b from-[#000000] to-[#001354] bg-clip-text text-transparent">A more effective way to track progress</h2>
             <p className="text-[1.2rem] text-center w-[40ch]">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</p>
             <Image src={ProductImage} alt="product image" width={1100} height={683} />
             <span className="absolute right-0">

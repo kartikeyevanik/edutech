@@ -10,8 +10,9 @@ const LogoTicker = () => {
   const logos = [Aceme, Quantum, Echo, Celestia, Pulse, Apex];
 
   return (
-    <div className="overflow-hidden w-full py-8 bg-white px-8">
-      <div className="flex justify-center whitespace-nowrap gap-18">
+    <div className="relative overflow-hidden w-full py-8 bg-white px-8 ">
+
+      <div className="flex justify-center items-center whitespace-nowrap gap-20 relative z-0">
         {logos.map((logo, idx) => (
           <div key={idx} className="flex-shrink-0">
             <Image

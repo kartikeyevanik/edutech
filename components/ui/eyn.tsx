@@ -18,7 +18,7 @@ const Eyn = () => {
     return (
         <div className="relative bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] flex flex-col justify-center place-items-center py-[6rem] gap-2">
             <span className="text-[13x] text-center border border-gray-300 py-1 px-2 rounded-lg">Everything you need</span>
-            <h2 className="text-[3.75rem] text-center font-bold xl:w-[18ch]">Streamlined for easy management</h2>
+            <h2 className="text-[3.75rem] text-center font-bold xl:w-[18ch] bg-gradient-to-b from-[#000000] to-[#001354] bg-clip-text text-transparent">Streamlined for easy management</h2>
             <p className="text-[1.2rem] text-center w-[45ch] mb-12">Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.</p>
             <div className="flex gap-6 mx-12">
                 {cardData.map((card, index) => (
