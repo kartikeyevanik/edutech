@@ -1,11 +1,11 @@
 import Image from "next/image";
-import logo from "../assets/footer/logosaas.png";
-import youtube from "../assets/footer/Vector6.png";
-import x from "../assets/footer/Vector.png";
-import tiktop from "../assets/footer/Vector2.png";
-import Vector from "../assets/footer/Vector4.png";
-import insta from "../assets/footer/Vector1.png";
-import linkdin from "../assets/footer/Vector3.png";
+import logo from "../public/assets/footer/logosaas.png";
+import youtube from "../public/assets/footer/Vector6.png";
+import x from "../public/assets/footer/Vector.png";
+import tiktop from "../public/assets/footer/Vector2.png";
+import Vector from "../public/assets/footer/Vector4.png";
+import insta from "../public/assets/footer/Vector1.png";
+import linkdin from "../public/assets/footer/Vector3.png";
 
 const Footer = () => {
     return (
@@ -21,7 +21,7 @@ const Footer = () => {
                             alt="Company Logo"
                             width={40}
                             height={40}
-                            className="mb-4"
+                            className="mb-4 p-1 rounded-[10px] bg-gradient-to-r from-[#DD7DFF] via-[#E1CD86] via-[#8BCB92] via-[#71C2EF] to-[#3BFFFF] inline-block shadow-lg"
                         />
 
                         <p className="text-gray-400 text-sm leading-6 max-w-[28ch]">

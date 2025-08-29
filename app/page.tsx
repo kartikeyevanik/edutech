@@ -8,7 +8,7 @@ import Testimonials from "@/components/ui/testimonals";
 
 export default function Home() {
   return (
-    <div className="font-sans pt-[4rem]">
+    <div className="font-sans pt-[5rem]">
       <Hero />
       <LogoTicker />
       <Product />

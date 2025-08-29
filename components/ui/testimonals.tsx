@@ -1,15 +1,15 @@
 import Image from "next/image";
 
 
-import Ec1 from "../../assets/tesimonials/Ellipse 1.png";
-import Ec2 from "../../assets/tesimonials/Ellipse 2.png";
-import Ec3 from "../../assets/tesimonials/Ellipse3.png";
-import Ec4 from "../../assets/tesimonials/Ellipse4.png";
-import Ec5 from "../../assets/tesimonials/Ellipse5.png";
-import Ec6 from "../../assets/tesimonials/Ellipse6.png";
-import Ec7 from "../../assets/tesimonials/Ellipse7.png";
-import Ec8 from "../../assets/tesimonials/Ellipse8.png";
-import Ec9 from "../../assets/tesimonials/Ellipse9.png";
+import Ec1 from "../../public/assets/tesimonials/Ellipse 1.png";
+import Ec2 from "../../public/assets/tesimonials/Ellipse 2.png";
+import Ec3 from "../../public/assets/tesimonials/Ellipse3.png";
+import Ec4 from "../../public/assets/tesimonials/Ellipse4.png";
+import Ec5 from "../../public/assets/tesimonials/Ellipse5.png";
+import Ec6 from "../../public/assets/tesimonials/Ellipse6.png";
+import Ec7 from "../../public/assets/tesimonials/Ellipse7.png";
+import Ec8 from "../../public/assets/tesimonials/Ellipse8.png";
+import Ec9 from "../../public/assets/tesimonials/Ellipse9.png";
 
 const testimonials = [
   {
@@ -82,9 +82,9 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-gradient-to-b from-[#FFFFFF] to-[#F9FAFB] py-16 px-6 text-center">
+    <div className="bg-gradient-to-b from-[#FFFFFF] to-[#F9FAFB] mt-[15rem] px-6 text-center">
       <p className="text-sm text-gray-500 mb-2 border border-gray-300 rounded-xl inline px-2 py-1">Testimonials</p>
-      <h2 className="text-[3.75rem] font-bold text-gray-900 mb-12 bg-gradient-to-b from-[#000000] to-[#001354] bg-clip-text text-transparent">
+      <h2 className="text-[54px] font-bold text-gray-900 mb-12 bg-gradient-to-b from-[#000000] to-[#001354] bg-clip-text text-transparent">
         What our users say
       </h2>
 
@@ -92,11 +92,11 @@ const Testimonials = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className={`bg-white shadow-sm rounded-xl p-6 text-left transition-opacity ${
+            className={`bg-white shadow-sm rounded-[20px] p-6 text-left transition-opacity ${
               testimonial.faded ? "opacity-50" : "opacity-100"
             }`}
           >
-            <p className="text-gray-600 mb-4">{testimonial.message}</p>
+            <p className="text-[16px] mb-4">{testimonial.message}</p>
             <div className="flex items-center gap-3">
               <Image
                 src={testimonial.image}

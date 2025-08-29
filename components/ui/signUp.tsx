@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Emojis from "../../assets/emojistar 1.png";
-import Helix from "../../assets/helix2 1.png";
+import Emojis from "../../public/assets/emojistar 1.png";
+import Helix from "../../public/assets/helix2 1.png";
 import { ArrowRight } from "lucide-react";
 
 const SignUp = () => {
     return (
-        <div className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] relative py-16 px-6 text-center flex flex-col items-center">
+        <div className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] relative py-16 mt-[2rem] px-6 text-center flex flex-col items-center">
             <h1 className="text-[3.75rem] font-bold mb-4 text-gray-900 bg-gradient-to-b from-[#000000] to-[#001354] bg-clip-text text-transparent">
                 Sign up for free today
             </h1>
@@ -20,10 +20,10 @@ const SignUp = () => {
                     Learn more <ArrowRight size={"1rem"} />
                 </button>
             </div>
-            <span className="absolute left-[8rem] top-4">
+            <span className="absolute -top-[2px] left-[45px]">
                 <Image src={Emojis} width={216} height={197} alt="cylinder image" />
             </span>
-            <span className="absolute right-[9rem]">
+            <span className="absolute top-[113px] left-[838px]">
                 <Image src={Helix} width={216} height={197} alt="cylinder image" />
             </span>
         </div>
